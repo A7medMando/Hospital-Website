@@ -1252,7 +1252,7 @@ header .container .navbar-2 ul li a:hover {
     grid-template-columns: 2fr 1fr;
   }
   .contact .container .contact-section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr;
   }
   .contact-section .right-section {
     padding-left: 2rem;

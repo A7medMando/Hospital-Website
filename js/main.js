@@ -1,14 +1,14 @@
 let themeBtn = document.getElementById("dark-theme")
 
-themeBtn.onclick = () => {
-  if (document.body.classList.contains("light")) {
-    document.body.classList.remove("light")
-    themeBtn.src = "images/ChatGPT Image Apr 28, 2026, 01_56_15 PM.png"
-  } else {
-    document.body.classList.add("light")
+themeBtn.addEventListener("click", () => {
+  let isLight = document.body.classList.toggle("light")
+  
+  if (isLight) {
     themeBtn.src = "images/ChatGPT Image Apr 26, 2026, 10_20_39 PM.png"
+  } else {
+    themeBtn.src = "images/ChatGPT Image Apr 28, 2026, 01_56_15 PM.png"
   }
-}
+})
 
 let menuToggle = document.getElementById("menu-toggle")
 let navMenu = document.getElementById("nav-menu")

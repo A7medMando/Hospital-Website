@@ -78,7 +78,7 @@ img {
 
 .btn {
   border: 1px solid var(--btn-color);
-  padding: 15px 22px;
+  padding: 15px 25px;
   border-radius: 5px;
   color: #fff;
   background-color: var(--btn-color);
@@ -1096,7 +1096,7 @@ header .container .navbar-2 ul li a:hover {
 
 .contact .container .contact-section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 0;
 }
@@ -1114,14 +1114,8 @@ header .container .navbar-2 ul li a:hover {
 .contact-section .left-section form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
-.contact-section .form-group-row {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
 
 .contact-section .left-section form input,
 .contact-section .left-section form textarea {
@@ -1137,7 +1131,6 @@ header .container .navbar-2 ul li a:hover {
 
 .contact-section .left-section form textarea {
   height: 200px;
-  resize: vertical;
 }
 
 .contact-section .right-section p {
@@ -1166,7 +1159,7 @@ header .container .navbar-2 ul li a:hover {
   .goal-features {
     grid-template-columns: repeat(2, 1fr);
   }
-  .contact-section .form-group-row {
+  .contact-section .left-section {
     flex-direction: row;
   }
 }
@@ -1274,7 +1267,7 @@ header .container .navbar-2 ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
   }
   .pricing-2 .container .cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

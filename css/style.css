@@ -238,7 +238,7 @@ header .container img {
 
 .who-we-are .container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   color: var(--text-color);
   gap: 40px;
